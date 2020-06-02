@@ -25,3 +25,14 @@ img:hover {
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
+@media only screen and (min-width: 426px) {
+  img {
+    box-shadow: 1px 1px 6px rgb(95, 92, 92);
+    width: 20rem;
+    transition: transform 0.4s;
+  }
+  img:hover {
+    transform: scale(1.18);
+  }
+}
+
