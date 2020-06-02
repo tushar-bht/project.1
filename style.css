@@ -25,10 +25,10 @@ img:hover {
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 427px) {
   img {
     box-shadow: 1px 1px 6px rgb(95, 92, 92);
-    width: 25rem;
+    width: 28rem;
     transition: transform 0.4s;
   }
   img:hover {
